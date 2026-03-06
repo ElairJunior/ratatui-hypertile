@@ -25,5 +25,4 @@ serde = ["dep:serde"]
 
 [dev-dependencies]
 crossterm = "0.29"
-ratatui-hypertile-extras = { version = "0.1.0", path = "extras", features = ["crossterm"] }
 serde_json = "1.0"
