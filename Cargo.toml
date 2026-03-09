@@ -6,7 +6,7 @@ resolver = "2"
 name = "ratatui-hypertile"
 version = "0.1.0"
 edition = "2024"
-rust-version = "1.86"
+rust-version = "1.88"
 description = "Tiling layout engine for Ratatui"
 license = "MIT"
 repository = "https://github.com/nikolic-milos/ratatui-hypertile"
@@ -16,7 +16,7 @@ keywords = ["tiling", "layout", "ratatui", "tui", "panes"]
 categories = ["command-line-interface"]
 
 [dependencies]
-ratatui = { version = "0.30", default-features = false, features = ["all-widgets", "crossterm"] }
+ratatui = { version = "0.30", default-features = false, features = ["crossterm"] }
 serde = { version = "1.0", features = ["derive"], optional = true }
 
 [features]
