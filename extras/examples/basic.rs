@@ -228,15 +228,15 @@ fn run(terminal: &mut ratatui::DefaultTerminal, runtime: &mut HypertileRuntime) 
         })?;
 
         let timeout = tick_rate.saturating_sub(last_tick.elapsed());
-        if event::poll(timeout)? {
-            if let Event::Key(key) = event::read()? {
-                match (key.code, key.modifiers) {
-                    (KeyCode::Char('q'), KeyModifiers::NONE)
-                    | (KeyCode::Char('c'), KeyModifiers::CONTROL) => return Ok(()),
-                    _ => {
-                        if let Some(ev) = event_from_crossterm(key) {
-                            runtime.handle_event(ev);
-                        }
+        if event::poll(timeout)?
+            && let Event::Key(key) = event::read()?
+        {
+            match (key.code, key.modifiers) {
+                (KeyCode::Char('q'), KeyModifiers::NONE)
+                | (KeyCode::Char('c'), KeyModifiers::CONTROL) => return Ok(()),
+                _ => {
+                    if let Some(ev) = event_from_crossterm(key) {
+                        runtime.handle_event(ev);
                     }
                 }
             }

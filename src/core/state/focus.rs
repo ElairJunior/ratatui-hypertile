@@ -79,12 +79,11 @@ impl HypertileState {
     ///
     /// Safe to call even if the current focus does not resolve to a pane.
     pub fn sync_focus_path(&mut self) {
-        if let Some(id) = self.focused_pane() {
-            if let Some(correct_path) = self.pane_path(id) {
-                if correct_path != self.focused_path {
-                    self.focused_path = correct_path;
-                }
-            }
+        if let Some(id) = self.focused_pane()
+            && let Some(correct_path) = self.pane_path(id)
+            && correct_path != self.focused_path
+        {
+            self.focused_path = correct_path;
         }
     }
 
